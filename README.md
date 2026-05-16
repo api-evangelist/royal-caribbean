@@ -1,17 +1,28 @@
 # Royal Caribbean Group (royal-caribbean)
 
-A global cruise vacation company operating Royal Caribbean International, Celebrity Cruises, and Silversea Cruises. Known for innovative megaships and adventure-forward itineraries spanning the Caribbean, Europe, Alaska, and beyond.
+Royal Caribbean Group is a global cruise vacation company operating Royal Caribbean International, Celebrity Cruises, and Silversea Cruises. Royal Caribbean does not publish a public developer API. Travel partner integration is operated through the CruisingPower B2B portal which requires authenticated agent access.
 
 **URL:** [https://www.royalcaribbeangroup.com/](https://www.royalcaribbeangroup.com/)
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=royal-caribbean-api-evangelist&utm_content=repo)
+**Consumer Site:** [https://www.royalcaribbean.com/](https://www.royalcaribbean.com/)
 
-## Tags:
+**Travel Partner Portal:** [https://www.cruisingpower.com/](https://www.cruisingpower.com/)
 
- - Cruise Lines, Travel, Hospitality
+## Tags
+
+- Cruise Lines, Travel, Hospitality
+
+## APIs
+
+No public developer APIs.
+
+## Artifacts
+
+| Type | Path |
+|---|---|
+| Vocabulary | [vocabulary/royal-caribbean-vocabulary.yml](vocabulary/royal-caribbean-vocabulary.yml) |
 
 ## Timestamps
 
 - **Created:** 2026-05-05
-- **Modified:** 2026-05-05
-
+- **Modified:** 2026-05-16

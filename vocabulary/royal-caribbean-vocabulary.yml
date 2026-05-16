@@ -1,0 +1,20 @@
+vocabulary: royal-caribbean
+description: Vocabulary for Royal Caribbean Group's cruise vacation operations
+terms:
+  - term: Sailing
+    definition: A specific scheduled departure of a cruise ship along an itinerary
+  - term: Itinerary
+    definition: The ordered sequence of ports a sailing visits
+  - term: Stateroom
+    definition: A guest cabin on a cruise ship, sold by category and bedding type
+  - term: Embarkation Port
+    definition: The port where guests board the cruise ship at the start of a sailing
+  - term: CruisingPower
+    definition: Royal Caribbean's travel agent B2B portal for booking and commissions
+  - term: Crown & Anchor Society
+    definition: Royal Caribbean International's loyalty program for repeat cruisers
+dimensions:
+  - name: brand
+    values: [RoyalCaribbeanInternational, CelebrityCruises, SilverseaCruises]
+  - name: region
+    values: [Caribbean, Europe, Alaska, Asia, Australia, TransAtlantic]

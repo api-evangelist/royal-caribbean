@@ -7,11 +7,47 @@ tags:
   - Cruise Lines
   - Travel
   - Hospitality
-description: 'A global cruise vacation company operating Royal Caribbean International, Celebrity Cruises, and Silversea Cruises. Known for innovative megaships and adventure-forward itineraries spanning the Caribbean, Europe, Alaska, and beyond.'
+description: >-
+  Royal Caribbean Group is a global cruise vacation company operating Royal
+  Caribbean International, Celebrity Cruises, and Silversea Cruises. Royal
+  Caribbean does not publish a public developer API. Travel partner and
+  agent integration is operated through the CruisingPower B2B portal
+  (cruisingpower.com), which requires authenticated agent access. The
+  company also operates loyalty (Crown & Anchor Society) and consumer
+  booking platforms with no public API surface.
 created: '2026-05-05'
-modified: '2026-05-05'
+modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
   - type: Website
     url: https://www.royalcaribbeangroup.com/
+  - type: ConsumerSite
+    url: https://www.royalcaribbean.com/
+  - type: TravelPartnerPortal
+    url: https://www.cruisingpower.com/
+  - type: LoyaltyProgram
+    url: https://www.royalcaribbean.com/loyalty/crown-and-anchor
+  - type: Vocabulary
+    url: vocabulary/royal-caribbean-vocabulary.yml
+  - type: Features
+    data:
+      - name: Cruise Booking Platform
+        description: Consumer-facing platform for searching and booking cruise itineraries
+      - name: CruisingPower B2B Portal
+        description: Authenticated travel agent portal for booking, commissions, and group management
+      - name: Crown & Anchor Society
+        description: Loyalty program tracking tier benefits across Royal Caribbean cruises
+      - name: Brand Portfolio
+        description: Royal Caribbean International, Celebrity Cruises, and Silversea Cruises
+  - type: UseCases
+    data:
+      - name: Travel Agent Booking
+        description: Travel agents book cruises and manage groups via CruisingPower
+      - name: Consumer Cruise Search
+        description: Travelers search itineraries, ships, and onboard experiences
+      - name: Loyalty Tier Management
+        description: Crown & Anchor members accrue points and unlock cruise perks
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
