@@ -20,6 +20,10 @@ modified: '2026-05-16'
 specificationVersion: '0.19'
 apis: []
 common:
+  - type: GitHubOrganization
+    url: https://github.com/RCCL
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/royal-caribbean-group
   - type: Website
     url: https://www.royalcaribbeangroup.com/
   - type: ConsumerSite
