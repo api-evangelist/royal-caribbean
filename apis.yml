@@ -1,5 +1,8 @@
 aid: royal-caribbean
 url: https://raw.githubusercontent.com/api-evangelist/royal-caribbean/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "The company also operates loyalty (Crown & Anchor Society) and consumer booking platforms with no public API surface."
 name: Royal Caribbean Group
 type: Index
 deliveryModel:
