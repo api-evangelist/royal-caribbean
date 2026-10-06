@@ -41,10 +41,12 @@ description: >-
   company also operates loyalty (Crown & Anchor Society) and consumer
   booking platforms with no public API surface.
 created: '2026-05-05'
-modified: '2026-05-16'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis: []
 common:
+  - url: https://www.royalcaribbeangroup.com/news/
+    type: Blog
   - type: DomainSecurity
     url: security/royal-caribbean-domain-security.yml
   - type: GitHubOrganization
