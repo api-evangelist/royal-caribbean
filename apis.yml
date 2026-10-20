@@ -1,10 +1,17 @@
 aid: royal-caribbean
+
 url: https://raw.githubusercontent.com/api-evangelist/royal-caribbean/refs/heads/main/apis.yml
+
 x-api-posture: no-product-api
+
 x-api-posture-basis: observed
+
 x-api-posture-note: "The company also operates loyalty (Crown & Anchor Society) and consumer booking platforms with no public API surface."
+
 name: Royal Caribbean Group
+
 type: Index
+
 deliveryModel:
   model: unknown
   open_source: false
@@ -16,6 +23,7 @@ deliveryModel:
   - none
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: unknown
   onboarding: unknown
@@ -27,11 +35,16 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/royal-caribbean.png
+
 tags:
   - Cruise Lines
   - Travel
   - Hospitality
+  - Cruises
+  - Leisure
+
 description: >-
   Royal Caribbean Group is a global cruise vacation company operating Royal
   Caribbean International, Celebrity Cruises, and Silversea Cruises. Royal
@@ -40,11 +53,26 @@ description: >-
   (cruisingpower.com), which requires authenticated agent access. The
   company also operates loyalty (Crown & Anchor Society) and consumer
   booking platforms with no public API surface.
+
 created: '2026-05-05'
+
 modified: '2026-10-06'
+
 specificationVersion: '0.23'
-apis: []
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+
 common:
+  - type: Hosts
+    url: hosts/royal-caribbean-hosts.yml
+  - type: Vendors
+    url: vendors/royal-caribbean-vendors.yml
+  - type: Newsroom
+    url: https://royalcaribbeangroup.com/news
+  - type: Documentation
+    url: https://dev.royalcaribbeangroup.com/
   - url: https://www.royalcaribbeangroup.com/news/
     type: Blog
   - type: DomainSecurity
@@ -55,12 +83,12 @@ common:
     url: https://www.linkedin.com/company/royal-caribbean-group
   - type: Website
     url: https://www.royalcaribbeangroup.com/
+  - type: PrivacyPolicy
+    url: https://www.royalcaribbeangroup.com/royal-caribbeans-privacy-notice/
   - type: ConsumerSite
     url: https://www.royalcaribbean.com/
   - type: TravelPartnerPortal
     url: https://www.cruisingpower.com/
-  - type: LoyaltyProgram
-    url: https://www.royalcaribbean.com/loyalty/crown-and-anchor
   - type: Vocabulary
     url: vocabulary/royal-caribbean-vocabulary.yml
   - type: Features
@@ -81,6 +109,22 @@ common:
         description: Travelers search itineraries, ships, and onboard experiences
       - name: Loyalty Tier Management
         description: Crown & Anchor members accrue points and unlock cruise perks
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+
+apis: []
+x-enrichment:
+  date: '2026-10-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v5
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: Royal Caribbean Group publishes no public API or contract; api.* hosts serve no OpenAPI/GraphQL/MCP, dev.royalcaribbeangroup.com is a mirror of the corporate site rather than a developer portal, and travel-partner integration sits behind the authenticated CruisingPower agent portal.
+  evidence:
+  - url: https://dev.royalcaribbeangroup.com/
+    status: 200
+  - url: https://www.royalcaribbean.com/mcp/v1
+    status: 403
+  - url: https://www.royalcaribbean.com/llms.txt
+    status: 404
+  checked: '2026-10-20'
